@@ -96,7 +96,7 @@ body{
   font-size: 15px;
   background-color: var(--link-color);
   color: var(--site-bgcolor);
-  border: 3px solid var(--link-color);
+  border: 3px solid transparent;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -111,6 +111,7 @@ body{
 .header-link:active{
   background-color: var(--link-accolor);
   color: var(--site-bgcolor);
+  border: 3px solid transparent;
   border-radius: 5px;
 }
 
