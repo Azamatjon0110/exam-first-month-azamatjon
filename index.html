@@ -27,6 +27,23 @@
             </li>
             <li class="nav-list-item">
               <a class="nav-item-link" href="./service.html">Xizmatlar</a>
+              <ul class="hidden-list">
+                <li class="hidden-list-item">
+                  <a class="hidden-link" href="./website.html">Vebsayt</a>
+                </li>
+                <li class="hidden-list-item">
+                  <a class="hidden-link" href="./telegram.html">Telegram bot</a>
+                </li>
+                <li class="hidden-list-item">
+                  <a class="hidden-link" href="./smm.html">SMM</a>
+                </li>
+                <li class="hidden-list-item">
+                  <a class="hidden-link" href="./graphicdesign.html">Grafik dizayn</a>
+                </li>
+                <li class="hidden-list-item">
+                  <a class="hidden-link" href="./crm.html">CRM</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-list-item">
               <a class="nav-item-link" href="./portfolio.html">Portfolio</a>
@@ -38,7 +55,7 @@
               <a class="nav-item-link" href="./blog.html">Blog</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-item-link" href="./contacts.html">Kontaktlar</a>
+              <a class="nav-item-link" href="#contact">Kontaktlar</a>
             </li>
           </ul>
         </nav>
@@ -62,7 +79,7 @@
             <p class="intro-text">
               Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
             </p>
-            <a class="link" href="./service.html">Xizmatlar bilan tanishish</a>
+            <a class="link" href="#site-service">Xizmatlar bilan tanishish</a>
           </div>
           <iframe class="youtube-link" width="458" height="258" src="https://www.youtube-nocookie.com/embed/6_pru8U2RmM" title="YouTube video player" allowfullscreen></iframe>
         </div>
@@ -70,7 +87,7 @@
       <!-- site intro section end -->
     </section>
 
-    <section class="services">
+    <section class="services" id="site-service">
       <!-- service section start  -->
       <div class="container">
         <div class="service">
@@ -113,7 +130,7 @@
             </li>
           </ul>
           <div class="service-link">
-            <a class="link" href="#">Buyurtma berish</a>
+            <a class="link" href="#order-button">Buyurtma berish</a>
             <a class="service-page" href="./service.html">Xizmatlar sahifasiga o’tish</a>
           </div>
         </div>
@@ -166,7 +183,7 @@
             </li>
           </ol>
           <div class="work-link">
-            <a class="link" href="#">Buyurtma berish</a>
+            <a class="link" href="#order-button">Buyurtma berish</a>
           </div>
         </div>
 
@@ -174,7 +191,7 @@
       <!-- section how we work -->
     </section>
 
-    <section class="order">
+    <section class="order"  id="order-button">
       <!-- order section begin -->
       <div class="container">
         <div class="order-info">
@@ -187,7 +204,7 @@
           <form class="order-form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
             <input class="order-input" type="text" name="name" aria-label="Ismingiz" placeholder="Ismingiz" required>
             <input class="order-input" type="tel" name="telephone" aria-label="Telefon raqamingiz" placeholder="Telefon raqamingiz" required>
-            <select class="order-input" name="offers">
+            <select class="order-input arrow-down" name="offers">
               <option value="Xizmat turi" selected disabled>Xizmat turi</option>
               <option value="Vebsayt tuzish">Vebsayt tuzish</option>
               <option value="Telegram bot">Telegram bot</option>
@@ -201,8 +218,9 @@
       </div>
       <!-- order section end  -->
     </section>
+  </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="contact">
       <!-- site footer begin -->
       <div class="container">
         <div class="footer-info">
@@ -214,22 +232,22 @@
             <p class="footer-text-title"><strong>Sayt sahifalari</strong></p>
             <ul class="footer-nav-list">
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./index.html">Bosh sahifa</a>
+                <a class="ft-nav-item-link" href="./index.html">Bosh sahifa</a>
               </li>
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./service.html">Xizmatlar</a>
+                <a class="ft-nav-item-link" href="./service.html">Xizmatlar</a>
               </li>
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./portfolio.html">Portfolio</a>
+                <a class="ft-nav-item-link" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./team.html">Jamoa</a>
+                <a class="ft-nav-item-link" href="./team.html">Jamoa</a>
               </li>
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./blog.html">Blog</a>
+                <a class="ft-nav-item-link" href="./blog.html">Blog</a>
               </li>
               <li class="footer-nav-list-item">
-                <a class="nav-list-item" href="./contacts.html">Kontaktlar</a>
+                <a class="ft-nav-item-link" href="./contacts.html">Kontaktlar</a>
               </li>
             </ul>
           </div>
@@ -237,13 +255,13 @@
             <p class="footer-text-title"><strong>Biz internetda</strong></p>
             <ul class="social-media-list">
               <li class="social-media-list-item">
-                <a class="social-media-link telegram" href="./social-media.html" target="blank">Telegram</a>
+                <a class="social-media-link telegram" href="#" target="blank">Telegram</a>
               </li>
               <li class="social-media-list-item">
-                <a class="social-media-link facebook" href="./social-media.html" target="blank">Facebook</a>
+                <a class="social-media-link facebook" href="#" target="blank">Facebook</a>
               </li>
               <li class="social-media-list-item">
-                <a class="social-media-link instagram" href="./social-media.html" target="blank">Instagram</a>
+                <a class="social-media-link instagram" href="#" target="blank">Instagram</a>
               </li>
             </ul>
           </div>
@@ -251,6 +269,5 @@
       </div>
       <!-- site footer end -->
     </footer>
-  </main>
 </body>
 </html>
